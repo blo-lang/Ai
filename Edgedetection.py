@@ -6,7 +6,7 @@ if image is None:
     print("Image not found")
     exit()
 #convert image to gray scale
-gray=cv2.cvt.Color(image,cv2.COLOR_BGR2GRAY)
+gray=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 #Menu-pick options from
 print("Choose and option")
 print("1. Apply Gaussian Blur")
