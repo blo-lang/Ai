@@ -39,15 +39,15 @@ while True:
     cv2.imshow("Filtered Image",filtered_image)
     key=cv2.waitKey(0) & 0XFF
     if key==ord('r'):
-        filtered_image="red"
+        filter_type="red"
     if key==ord('g'):
-        filtered_image="green"
+        filter_type="green"
     if key==ord('b'):
-        filtered_image="blue"
+        filter_type="blue"
     if key==ord('i'):
-        filtered_image="increase"
+        filter_type="increase"
     if key==ord('d'):
-        filtered_image="decrease"
+        filter_type="decrease"
     if key==ord("q"):
         break
 cv2.destroyAllWindows()
