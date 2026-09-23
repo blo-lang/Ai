@@ -70,6 +70,6 @@ while True:
     if keys==ord("m"):
         mode="m"
     if keys==ord("q"):
-        mode="q"
+        break
 cam.release()
 cv2.destroyAllWindows()
